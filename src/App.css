@@ -1,0 +1,226 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 80px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.App-header {
+  background-color: #f8f8f8;
+  height: 100px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+/* Home Page: Carousel */
+.slide-wrapper {
+   position: relative
+}
+
+.carousel-caption {
+   background-color: #fff;
+   border-width: 3px;
+   border-color: #373A3C;
+   border-style: solid;
+   padding: 20px;
+   position: initial;
+   right: 15%;
+   bottom: 20%;
+   left: 60%;
+   z-index: 10;
+   color: #373A3C;
+   text-align: center;
+   text-shadow: none;
+}
+
+.carousel-image {
+   max-width: none;
+   min-width: 100%;
+   height: auto;
+   vertical-align: middle;
+}
+
+@media (min-width: 1001px) and (max-width: 1180px) {
+	.carousel-caption {
+	  text-align: center;
+     right: 20%;
+     left: 55%;
+     bottom: 15%;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 1000px) {
+	.carousel-caption {
+	  text-align: center;
+     right: 30%;
+     left: 30%;
+     bottom: 15%;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+	.carousel-caption {
+	  text-align: center;
+     right: 18%;
+     left: 18%;
+     bottom: 10%;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+	.carousel-item {
+      overflow: hidden;
+      height: 650px;
+      background-color: #373A3C;
+      background-size: cover;
+      background-position: bottom center;
+   }
+}
+
+#homepage-feature .carousel-item {
+   overflow: hidden;
+   height: 550px;
+   background-color: #373A3C;
+   background-size: cover;
+   background-position: bottom center;
+}
+#homepage-feature > .carousel-control {
+    width: 80px;
+    font-size: 40px;
+    color: #373A3C;
+    text-shadow: none;
+    filter: none;
+    opacity: 1;
+}
+
+#homepage-feature > .carousel-control span {
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    text-align: center;
+}
+
+/* About Page: Content Div */
+.aboutContent {
+   right: -80px;
+   margin-top: -20%;
+   margin-bottom: 5%;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+   .aboutContent {
+      right: 0px;
+      margin-top: -5%;
+      margin-bottom: 5%;
+   }
+}
+
+.billboard-qoute {
+  padding: 20px;
+  background-color: white;
+  border: 3px solid #404040;
+}
+
+.billboard-row {
+  display: flex;
+  padding-top: 18%;
+  padding-right: 15%;
+  justify-content: flex-end;
+}
+
+.billboard-container {
+  height: 550px;
+}
+
+@media (min-width: 899px) and (max-width: 1099px) {
+  .billboard-row {
+    display: flex;
+    padding-top: 35%;
+    padding-right: 10%;
+    justify-content: flex-end;
+  }
+
+  .billboard-container {
+    height: 600px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 899px) {
+  .billboard-row {
+    display: flex;
+    padding-top: 30%;
+    padding-right: 10%;
+    justify-content: flex-end;
+  }
+
+  .billboard-container {
+    height: 600px;
+  }
+}
+
+@media (min-width: 560px) and (max-width: 768px) {
+  .billboard-row {
+    display: flex;
+    padding-top: 50%;
+    padding-right: 0%;
+    justify-content: center;
+  }
+
+  .billboard-container {
+    height: 600px;
+  }
+}
+
+@media (min-width: 368px) and (max-width: 560px) {
+  .billboard-row {
+    display: flex;
+    padding-top: 80%;
+    padding-right: 0;
+    justify-content: center;
+  }
+
+  .billboard-container {
+    height: 650px;
+  }
+}
+
+.widgets-row {
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media (min-width: 768px) {
+  .widgets-row {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+
+.col-snapchat {
+    border-left: 3px solid #ffffff;
+    border-right: 3px solid #ffffff;
+}
+
+@media (max-width: 768px) {
+    .col-snapchat {
+        border-top: 3px solid #ffffff;
+        border-bottom: 3px solid #ffffff;
+        border-left: none;
+        border-right: none;
+    }
+}
+
+.carousel { height: 100%; }
+
+.carousel-cell { height: 100% }
+
+.carousel {
+  width: 300px;
+}

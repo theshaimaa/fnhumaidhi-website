@@ -1,0 +1,70 @@
+@font-face { font-family: Frutiger; font-weight: 800; src: url('./assets/fonts/Frutiger-Black.ttf'); }
+@font-face { font-family: Frutiger; font-weight: 600; src: url('./assets/fonts/Frutiger-Bold.ttf');}
+@font-face { font-family: Frutiger; font-weight: 200; src: url('./assets/fonts/Frutiger-Light.ttf');}
+@font-face { font-family: Frutiger; font-weight: 400; src: url('./assets/fonts/Frutiger-Roman.ttf');}
+@font-face { font-family: Curves; font-weight: medium; src: url('./assets/fonts/GECurves-Medium.otf');}
+@font-face { font-family: HelveticaNeue; font-weight: bold; src: url('./assets/fonts/HelveticaNeue-Bold.ttf');}
+@font-face { font-family: HelveticaNeue; font-weight: lighter; src: url('./assets/fonts/HelveticaNeue-Light.ttf');}
+
+h1, h2, h3, h4, h5, h6 { font-family: Frutiger; font-weight: 500; }
+
+p, li { font-family: Frutiger; font-weight: lighter; letter-spacing: 1px; }
+
+a { font-family: Frutiger; font-weight: normal; letter-spacing: 1px; }
+
+button { font-family: Frutiger; font-weight: 500; letter-spacing: 1px; }
+
+span { font-family: HelveticaNeue; letter-spacing: 1px; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.navbar-nav .nav-item {
+    float: right;
+}
+
+.nav-item {
+   padding: 0 10px;
+   margin: 0 10px;
+}
+
+.whiteButton {
+   color: #373A3C;
+   background-color: #ffffff;
+   border-color: #373A3C;
+   padding: 1.2rem;
+   border-radius: 0px;
+   border-width: 2px;
+   font-size: 18px;
+   width: 100%;
+   height: 100%;
+   line-height: 1.0em;
+}
+
+.whiteButton:hover {
+   color: #ffffff;
+   background-color: #373A3C;
+   border-color: #ffffff;
+}
+
+.blackButton {
+   color: #ffffff;
+   background-color: #373A3C;
+   border-color: #ffffff;
+   border-radius: 0px;
+   border-width: 2px;
+   font-size: 18px;
+   width: 100%;
+   height: 100%;
+   text-align: center;
+   line-height: 20px;
+}
+
+.blackButton:hover {
+   color: #373A3C;
+   background-color: #ffffff;
+   border-color: #373A3C;
+}
