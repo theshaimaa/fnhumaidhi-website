@@ -12,16 +12,6 @@ class AboutContent extends Component {
       }
    }
 
-   // componentDidMount() {
-   //    const blogRef = firebase.database().ref().child('blog');
-   //    blogRef.on('value', snap => {
-   //       this.setState({
-   //          title: snap.val().title,
-   //          content: snap.val().content
-   //       })
-   //    });
-   // }
-
    render() {
       const containerStyle = {
          backgroundColor: "#f8f8f8",

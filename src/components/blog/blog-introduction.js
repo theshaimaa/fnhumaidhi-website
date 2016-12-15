@@ -37,7 +37,7 @@ class Blog extends Component {
         };
 
         const pStyle = {
-            padding: "10px",
+            padding: "1rem 2rem",
             fontSize: "1.1em",
             lineHeight: "1.5em"
         };

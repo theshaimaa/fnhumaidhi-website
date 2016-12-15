@@ -11,7 +11,9 @@ class BlogList extends Component {
       const rowStyle = {
          backgroundColor: "rgba(0, 0, 0, 0)",
          overflow: 'hidden',
-         margin: '20px auto',
+         display: 'flex',
+         flexWrap: 'wrap',
+         justifyContent: 'center',
       };
 
       const h3Style = {
