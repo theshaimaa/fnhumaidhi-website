@@ -14,7 +14,14 @@ var Header = React.createClass({
       };
 
       const navItemStyle = {
-         padding: "0 9px"
+         padding: "0 12px"
+      }
+
+      const socialItemStyle = {
+         padding: "0 8px",
+         display: 'flex',
+         flexWrap: 'wrap',
+         justifyContent: 'center',
       }
 
       const hamburgerStyle = {
@@ -28,7 +35,7 @@ var Header = React.createClass({
          <div className="container-fluid">
             <nav style={navStyle} className="navbar navbar-light bg-faded">
                <span className="navbar-text float-lg-left">
-                  <ul style={navItemStyle} className="nav navbar-nav">
+                  <ul style={socialItemStyle} className="nav navbar-nav">
                      <li className="nav-item">
                         <a className="nav-link" href="https://www.youtube.com/channel/UCGrcCEaO32HvEZd634k_07g" target="_blank"><i className="fa fa-youtube-play" aria-hidden="true"></i></a>
                      </li>
