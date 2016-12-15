@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-// import * as firebase from 'firebase';
 import Billboard from '../components/billboard/billboard.js';
 import Widget from '../components/widget/widget.js';
 import Shop from '../components/shop/shop.js';
