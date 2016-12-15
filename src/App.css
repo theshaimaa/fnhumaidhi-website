@@ -216,11 +216,3 @@
         border-right: none;
     }
 }
-
-.carousel { height: 100%; }
-
-.carousel-cell { height: 100% }
-
-.carousel {
-  width: 300px;
-}

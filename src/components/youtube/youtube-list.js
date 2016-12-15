@@ -6,13 +6,12 @@ import Video from './youtube-video.js';
 
 var Flickity = require('react-flickity-component')(React);
 var flickityOptions = {
-    initialIndex: 10,
+    initialIndex: 2,
     freeScroll: true,
     contain: true,
     prevNextButtons: false,
     pageDots: false,
     autoPlay: true,
-    resize: true,
 }
 
 var YoutubeList = React.createClass({
@@ -114,6 +113,9 @@ var YoutubeList = React.createClass({
                 </div>
                 <div className="card" style={cardStyle}>
                     {cells[23]}
+                </div>
+                <div className="card" style={cardStyle}>
+                    {cells[24]}
                 </div>
             </Flickity>
         );
