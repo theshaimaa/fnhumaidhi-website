@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import * as firebase from 'firebase';
 import Header from './components/navigation/header.js';
 import SubHeader from './components/navigation/sub-header.js';
 import Footer from './components/navigation/footer.js';
