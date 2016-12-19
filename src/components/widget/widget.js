@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import * as firebase from 'firebase';
 import Snapcode from '../../assets/images/widgets/snapcode.png';
 
 class Widget extends Component {
@@ -22,6 +23,20 @@ class Widget extends Component {
             }
         }
     }
+
+    componentWillMount() {
+        const blogRef = firebase.database().ref().child('home/widget/snapchat');
+        blogRef.on('value', snap => {
+            console.log(snap.val());
+            this.setState({
+                snapchat: {
+                    title: snap.val().title,
+                    text: snap.val().text
+                }
+            })
+        });
+    };
+
     render() {
         const container = {
             backgroundColor: '#F8F8F8',
