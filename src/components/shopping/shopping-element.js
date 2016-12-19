@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 class ShoppingElement extends Component {
    render() {
       const imageURL = this.props.element.imageURL;
+      const link = this.props.element.link;
 
       const elementStyle = {
          margin: "0px",
@@ -34,7 +35,7 @@ class ShoppingElement extends Component {
       return (
          <div className="col-lg-4" style={contentContainer}>
             <div className="contentButton" style={buttonDivStyle}>
-               <p className="whiteButton">{this.props.element.title}</p>
+               <a href={link} target="_blank"><p className="whiteButton">{this.props.element.title}</p></a>
             </div>
             <div className="contentImage" style={elementStyle}></div>
          </div>

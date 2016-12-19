@@ -24,7 +24,7 @@ var Footer = React.createClass({
       return (
          <footer style={footerStyle} className="footer">
             <div className="container-fluid">
-               <span style={footerFontStyle} >&copy; 2016 Farah Alhumaidhi | Sponsored by <img role="presentation" src={IkeaLogo}/></span>
+               <span style={footerFontStyle} >&copy; 2016 Farah Alhumaidhi | Sponsored by <a href="http://www.ikea.com/kw/en/" target="_blank"><img role="presentation" src={IkeaLogo}/></a></span>
             </div>
          </footer>
       );

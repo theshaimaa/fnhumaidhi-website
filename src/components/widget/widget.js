@@ -18,7 +18,7 @@ class Widget extends Component {
             },
             snapchat: {
                 title: 'سناب جات',
-                text: 'تابعوني على سناب جات لتكونوا جزاء من يومي',
+                text: 'تابعوني على سناب جات لتكونوا جزء من يومي',
             }
         }
     }
