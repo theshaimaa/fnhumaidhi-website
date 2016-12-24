@@ -1,5 +1,10 @@
 const BlogPosts = [
     {
+        'title': "تصميم جميل للمساحات الصالونات",
+        'id': '8d913637bff643e5ba13dc45ab1c8793',
+        'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2F8d913637bff643e5ba13dc45ab1c8793%2F1.jpg?alt=media&token=f8206d15-5185-4dd2-b4ae-944d350b15b8'
+    },
+    {
         'title': "مراكز التجميل",
         'id': '085078016fcf4db19585aa8d447e78b2',
         'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2F085078016fcf4db19585aa8d447e78b2%2F1.jpg?alt=media&token=91a3a5a5-3481-4d31-81ef-9f5fe8f2db76'
