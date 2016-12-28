@@ -1,5 +1,10 @@
 const BlogPosts = [
     {
+        'title': "الشغل الحر... حامض حلو",
+        'id': '165cace270de4b7c9f253f8db2678e23',
+        'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2F165cace270de4b7c9f253f8db2678e23%2F3.jpg?alt=media&token=3ca1a016-2fa7-41cf-975a-0fae1a55a181'
+    },
+    {
         'title': "تصميم جميل للمساحات الصالونات",
         'id': '8d913637bff643e5ba13dc45ab1c8793',
         'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2F8d913637bff643e5ba13dc45ab1c8793%2F1.jpg?alt=media&token=f8206d15-5185-4dd2-b4ae-944d350b15b8'
