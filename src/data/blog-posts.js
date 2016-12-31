@@ -1,5 +1,10 @@
 const BlogPosts = [
     {
+        'title': 'أهمية الرسم في التصميم',
+        'id': '45c55b09ad764b949b1392a729221d96',
+        'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2F45c55b09ad764b949b1392a729221d96%2F0.jpg?alt=media&token=107a4d5e-4d77-4479-b6ab-a4597444d1c7'
+    },
+    {
         'title': "الشغل الحر... حامض حلو",
         'id': '165cace270de4b7c9f253f8db2678e23',
         'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2F165cace270de4b7c9f253f8db2678e23%2F3.jpg?alt=media&token=3ca1a016-2fa7-41cf-975a-0fae1a55a181'
