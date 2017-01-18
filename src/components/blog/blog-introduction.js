@@ -7,10 +7,9 @@ class Blog extends Component {
     constructor() {
         super();
         this.state = {
-            title: 'مدونة',
+            title: 'أحدث الفقرات',
             content: 'مدونتي تهدف لنشر العلم النافع والفوائد المنتقاة وتقديم العديد من الأفكار الإبداعية لكل من يدرس التصميم الداخلي و لكل هاوي للديكور. المسؤلية الاجتماعية من اكبر همومي ...دوري في ان اطلعكم علي امور كثيرة داخل وخارج البيت تساهم بشكل كبير في تحسبن نوع الحياة التي نعيشها كاصحاب بيوت .. و تسليط الضوء على الوعي العام للجمال و الذي لا يقتصر فقط على ما هو داخل البيوت في مدونتي الخاصة العديد من العناوين التي اصب فيها كل أهتماماتي الخاصة التي قد تفيدكم ..وازدوكم بكل ما قد يغيب عنكم. تابعوني و استفيدوا من كل ما اقدمه في مدونتي وهو ما سيسعدني كثيرا.',
             button: 'المزيد',
-            subtitle: 'أحدث الفقرات'
         }
     };
 
@@ -24,7 +23,7 @@ class Blog extends Component {
     render() {
         const divStyle = {
             padding: "30px 0px",
-            backgroundColor: "rgba(0, 0, 0, 0.03)"
+            backgroundColor: "rgba(0, 0, 0, 0)"
         };
 
         const containerStyle = {
@@ -61,7 +60,7 @@ class Blog extends Component {
                         </div>
                     </div>
                 </div>
-                <BlogList elements={BlogPosts.slice(0,3)} subtitle={this.state.subtitle}/>
+                <BlogList elements={BlogPosts.slice(0,3)}/>
             </div>
         );
     }

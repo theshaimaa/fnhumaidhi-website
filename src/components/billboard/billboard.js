@@ -5,10 +5,10 @@ class Billboard extends Component {
   constructor() {
      super();
      this.state = {
-        title: 'تعرف على',
-        farah: 'فرح الحميضي',
-        button: 'أدخل هنا',
-        link: '/about',
+        title: 'لقائمتنا البريديه',
+        text: 'لتصلك اخر مستجدات مدونتي الخاصه بالتصميم الداخلي.. و تكون اول من يقراء و يرى اجدد الاضافات تاكد ان تنضم لقائمتنا البريديه',
+        button: 'سجل هنا',
+        link: 'http://eepurl.com/cq8-KP',
      }
   }
   render() {
@@ -21,12 +21,13 @@ class Billboard extends Component {
 
     const title = {
        margin: "0",
-       fontSize: "16px",
+       paddingBottom: "10px",
+       fontSize: "26px",
     };
 
-    const farah = {
+    const text = {
        paddingBottom: "5px",
-       fontSize: "28px",
+       fontSize: "16px",
        lineHeight: "1.4em",
        marginBottom: "0.8rem",
     };
@@ -49,8 +50,8 @@ class Billboard extends Component {
       <div className="billboard-container" style={style}>
         <div className="billboard-row">
           <div className="billboard-qoute col-xs-10 col-sm-8 col-md-5 col-lg-3">
-            <p style={title}>{this.state.title}</p>
-            <h5 style={farah}>{this.state.farah}</h5>
+            <h5 style={title}>{this.state.title}</h5>
+            <p style={text}>{this.state.text}</p>
             <div style={buttonContainer}><a className="btn btn-primary blackButton" style={button} href={this.state.link}>{this.state.button}</a></div>
           </div>
         </div>

@@ -30,7 +30,7 @@
    padding: 20px;
    position: initial;
    right: 15%;
-   bottom: 20%;
+   bottom: 30%;
    left: 60%;
    z-index: 10;
    color: #373A3C;
@@ -50,7 +50,7 @@
 	  text-align: center;
      right: 20%;
      left: 55%;
-     bottom: 15%;
+     bottom: 20%;
 	}
 }
 
@@ -59,7 +59,7 @@
 	  text-align: center;
      right: 30%;
      left: 30%;
-     bottom: 15%;
+     bottom: 20%;
 	}
 }
 
@@ -68,7 +68,7 @@
 	  text-align: center;
      right: 18%;
      left: 18%;
-     bottom: 10%;
+     bottom: 30%;
 	}
 }
 
@@ -128,7 +128,7 @@
 
 .billboard-row {
   display: flex;
-  padding-top: 18%;
+  padding-top: 15%;
   padding-right: 15%;
   justify-content: flex-end;
 }
@@ -140,7 +140,7 @@
 @media (min-width: 899px) and (max-width: 1099px) {
   .billboard-row {
     display: flex;
-    padding-top: 35%;
+    padding-top: 30%;
     padding-right: 10%;
     justify-content: flex-end;
   }
@@ -166,7 +166,7 @@
 @media (min-width: 560px) and (max-width: 768px) {
   .billboard-row {
     display: flex;
-    padding-top: 50%;
+    padding-top: 40%;
     padding-right: 0%;
     justify-content: center;
   }
@@ -179,7 +179,7 @@
 @media (min-width: 318px) and (max-width: 560px) {
   .billboard-row {
     display: flex;
-    padding-top: 110%;
+    padding-top: 95%;
     padding-right: 0;
     justify-content: center;
   }

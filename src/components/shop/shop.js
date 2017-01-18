@@ -22,9 +22,12 @@ const elements = [
 
 var Shop = React.createClass({
     render: function() {
+        const container = {
+            backgroundColor: "rgba(0, 0, 0, 0.03)"
+        };
 
         const containerStyle = {
-            padding: "60px 20px"
+            padding: "60px 20px",
         };
 
         const hStyle = {
@@ -47,13 +50,15 @@ var Shop = React.createClass({
         }
 
         return (
-            <div dir="rtl" style={containerStyle} className="container">
-                <div className="row">
-                    <h2 style={hStyle}>تسوق هنا</h2>
-                    <p style={pStyle}>بيسيز باي فرح هو خط انتاج لاثاث و اكسسوارات منزليه خاص بي مصمم بالكامل ويتم انتاجه بكل فخر في الكويت. قطع يحتاجها كل بيت، مصممه بشكل حديث من غير ان تفقد وظيفتها.</p>
-                </div>
-                <div className="row" style={rowStyle}>
-                    {this.renderShopElements()}
+            <div className="container-fluid" style={container}>
+                <div dir="rtl" style={containerStyle} className="container">
+                    <div className="row">
+                        <h2 style={hStyle}>تسوق هنا</h2>
+                        <p style={pStyle}>بيسيز باي فرح هو خط انتاج لاثاث و اكسسوارات منزليه خاص بي مصمم بالكامل ويتم انتاجه بكل فخر في الكويت. قطع يحتاجها كل بيت، مصممه بشكل حديث من غير ان تفقد وظيفتها.</p>
+                    </div>
+                    <div className="row" style={rowStyle}>
+                        {this.renderShopElements()}
+                    </div>
                 </div>
             </div>
         );

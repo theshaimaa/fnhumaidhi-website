@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import Billboard from '../components/billboard/billboard.js';
-import Widget from '../components/widget/widget.js';
 import Shop from '../components/shop/shop.js';
 import Blog from '../components/blog/blog-introduction.js';
 import Pinterest from '../components/pinterest/pinterest.js';
@@ -11,9 +10,8 @@ class Home extends Component {
         return (
             <div>
                 <Billboard/>
-                <Widget/>
-                <Shop/>
                 <Blog/>
+                <Shop/>
                 <Pinterest/>
                 <Youtube/>
             </div>

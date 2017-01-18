@@ -1,5 +1,20 @@
 const BlogPosts = [
     {
+        'title': "موضة ٢٠١٧ في الديكور",
+        'id': '48055eec9ebc4664bf28b1f2257feda8',
+        'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2F48055eec9ebc4664bf28b1f2257feda8%2F0.jpg?alt=media&token=f6e09ce2-b430-4116-aa64-d4e6a609879c'
+    },
+    {
+        'title': "ستايلات في التصميم الداخلي",
+        'id': '34bb78e945fd4bb6bdbbf22f51a11f87',
+        'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2F34bb78e945fd4bb6bdbbf22f51a11f87%2F0.jpg?alt=media&token=a9ff18f8-1392-466c-8ab4-f6d1550f72a6'
+    },
+    {
+        'title': 'طاولات جانبية',
+        'id': 'bb6d1c6939e7435689ab1ad3c32668e4',
+        'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2Fbb6d1c6939e7435689ab1ad3c32668e4%2F0.jpg?alt=media&token=d9bf42ed-db86-4d62-934e-5cbde2b1859f'
+    },
+    {
         'title': 'أهمية الرسم في التصميم',
         'id': '45c55b09ad764b949b1392a729221d96',
         'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2F45c55b09ad764b949b1392a729221d96%2F0.jpg?alt=media&token=107a4d5e-4d77-4479-b6ab-a4597444d1c7'

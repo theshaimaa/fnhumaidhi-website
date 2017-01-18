@@ -1,5 +1,6 @@
 import React from 'react';
 import NavLink from './nav-link.js';
+import Snapcode from '../../assets/images/widgets/snapcode.png';
 
 var Header = React.createClass({
     render: function() {
@@ -10,15 +11,16 @@ var Header = React.createClass({
          boxShadow: "0 0 0px rgba(0, 0, 0, 0)",
          minHeight:"50px",
          background: "rgba(0, 0, 0, 0)",
-         borderRadius: 0,
+         borderRadius: '0',
+         padding: '8px',
       };
 
       const navItemStyle = {
-         padding: "0 12px"
+         padding: "10px 12px"
       }
 
       const socialItemStyle = {
-         padding: "0 8px",
+         padding: "10px 0",
          display: 'flex',
          flexWrap: 'wrap',
          justifyContent: 'center',
@@ -31,8 +33,12 @@ var Header = React.createClass({
          borderColor: '#e8e8e8',
       }
 
+      const container = {
+         padding: '0',
+      }
+
       return (
-         <div className="container-fluid">
+         <div className="container-fluid" style={container}>
             <nav style={navStyle} className="navbar navbar-light bg-faded">
                <span className="navbar-text float-lg-left">
                   <ul style={socialItemStyle} className="nav navbar-nav">
@@ -44,6 +50,9 @@ var Header = React.createClass({
                      </li>
                      <li className="nav-item">
                         <a className="nav-link" href="https://www.instagram.com/fnhumaidhi/" target="_blank"><i className="fa fa-instagram" aria-hidden="true"></i></a>
+                     </li>
+                     <li className="nav-item">
+                        <a className="nav-link" href={Snapcode} target="_blank"><i className="fa fa-snapchat-ghost" aria-hidden="true"></i></a>
                      </li>
                      <li className="nav-item">
                         <a className="nav-link" href="https://twitter.com/fnhumaidhi" target="_blank"><i className="fa fa-twitter" aria-hidden="true"></i></a>
