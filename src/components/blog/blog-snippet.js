@@ -26,17 +26,6 @@ class BlogSnippet extends Component {
             padding: "0px"
         }
 
-        const contentContainer = {
-            width: '320px',
-            backgroundColor: 'transparent',
-            padding: '0px',
-            margin: '20px',
-            textAlign: 'center',
-            display: "inline-block",
-            backgroundSize: 'cover',
-            overflow: 'hidden'
-        };
-
         const embed = {
             backgroundSize: 'contain',
             backgroundPosition: 'center center'
