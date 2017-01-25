@@ -1,5 +1,10 @@
 const BlogPosts = [
     {
+        'title': "بعيد عن الديكور",
+        'id': 'a789699d453f4f22973c879e661a18a3',
+        'imageURL': "https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2Fa789699d453f4f22973c879e661a18a3%2F0.jpeg?alt=media&token=c9045685-5f6a-42c3-86fc-20e906095a10",
+    },
+    {
         'title': "موضة ٢٠١٧ في الديكور",
         'id': '48055eec9ebc4664bf28b1f2257feda8',
         'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2F48055eec9ebc4664bf28b1f2257feda8%2F0.jpg?alt=media&token=f6e09ce2-b430-4116-aa64-d4e6a609879c'
