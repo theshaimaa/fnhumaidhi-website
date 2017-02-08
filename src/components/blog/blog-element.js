@@ -19,7 +19,7 @@ class BlogElement extends Component {
       };
 
       const contentContainer = {
-         height: "360px",
+         height: "380px",
          width: "320px",
          backgroundColor: "rgba(220, 30, 50, 1)",
          padding: "0px",
@@ -32,7 +32,7 @@ class BlogElement extends Component {
       };
 
       const buttonDivStyle = {
-         height: "60px",
+         height: "80px",
       };
 
       return (

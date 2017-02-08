@@ -179,7 +179,7 @@
 @media (min-width: 318px) and (max-width: 560px) {
   .billboard-row {
     display: flex;
-    padding-top: 95%;
+    padding-top: 85%;
     padding-right: 0;
     justify-content: center;
   }

@@ -35,13 +35,15 @@ body {
    color: #373A3C;
    background-color: #ffffff;
    border-color: #373A3C;
-   padding: 1.2rem;
+   padding: 0.8rem 0.5rem;
    border-radius: 0px;
    border-width: 2px;
    font-size: 18px;
    width: 100%;
    height: 100%;
-   line-height: 1.0em;
+   line-height: 1.4em;
+   text-align: center;
+   white-space: normal;
 }
 
 .whiteButton:hover {

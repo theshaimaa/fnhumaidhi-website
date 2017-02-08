@@ -17,7 +17,7 @@ class BlogPost extends Component {
             <div>
                 <Blog id={id}/>
                 {/* <Divider />
-                <BlogList elements={BlogPosts.slice(0,3)} title="اقرأ أكثر" /> */}
+                <BlogList elements={BlogPosts.slice(1,4)} title="اقرأ أكثر" /> */}
             </div>
         );
     }

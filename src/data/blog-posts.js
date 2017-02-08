@@ -1,5 +1,15 @@
 const BlogPosts = [
     {
+        'title': 'ابتكارات و افكار للمناشف و الفوط في الحمامات',
+        'id': '5817543854974df59f48d0b51248e165',
+        'imageURL': "https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2F5817543854974df59f48d0b51248e165%2F0.jpg?alt=media&token=8bb41dc1-45a1-4a38-8b0f-35f34c9f7c93",
+    },
+    {
+        'title': 'دورات المياه الخاصة بالضيوف',
+        'id': '8c38bf35fd5640bb8f504cc4e7d9e398',
+        'imageURL': "https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2F8c38bf35fd5640bb8f504cc4e7d9e398%2F0.jpg?alt=media&token=4c63c101-adec-41c4-8d2d-65d8ed0ad81c",
+    },
+    {
         'title': "بعيد عن الديكور",
         'id': 'a789699d453f4f22973c879e661a18a3',
         'imageURL': "https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2Fa789699d453f4f22973c879e661a18a3%2F0.jpeg?alt=media&token=c9045685-5f6a-42c3-86fc-20e906095a10",
