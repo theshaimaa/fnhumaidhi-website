@@ -8,7 +8,7 @@ class Billboard extends Component {
         title: 'لقائمتنا البريديه',
         text: 'سجل الان لتصلك اخر اخبارنا... و احصل على فرصه لدخول السحب على جوائز قيمه',
         button: 'سجل هنا',
-        link: 'http://eepurl.com/cq8-KP',
+        link: 'http://farahalhumaidhi.us14.list-manage.com/subscribe?u=ae232d495f9255f8b628c4d84&id=2e4b924c11',
      }
   }
   render() {
