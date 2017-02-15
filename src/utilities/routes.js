@@ -12,7 +12,7 @@ import Courses from '../pages/Courses.js';
 import BlogPost from '../pages/BlogPost.js';
 
 const Routes = (props) => (
-   <Router {...props} history={browserHistory}>
+   <Router onUpdate={() => window.scrollTo(0, 0)} {...props} history={browserHistory}>
       <Route component={App}>
          <Route path="/" component={Home} />
          <Route path="about" component={About} />

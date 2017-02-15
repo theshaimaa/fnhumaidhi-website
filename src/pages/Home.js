@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Billboard from '../components/billboard/billboard.js';
 import Shop from '../components/shop/shop.js';
-import Blog from '../components/blog/blog-introduction.js';
+import New from '../components/new/new-introduction.js';
 import Pinterest from '../components/pinterest/pinterest.js';
 import Youtube from '../components/youtube/youtube.js';
 
@@ -10,7 +10,7 @@ class Home extends Component {
         return (
             <div>
                 <Billboard/>
-                <Blog/>
+                <New/>
                 <Shop/>
                 <Pinterest/>
                 <Youtube/>

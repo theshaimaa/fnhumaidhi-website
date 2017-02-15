@@ -70,3 +70,12 @@ body {
    background-color: #ffffff;
    border-color: #373A3C;
 }
+
+.Modal_Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(61, 61, 60, 0.8);
+  }
