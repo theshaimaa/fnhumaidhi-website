@@ -1,22 +1,21 @@
 import React, { Component } from 'react';
-import Background from '../../assets/images/banner/banner.jpg';
+import Background from '../../assets/images/banner/farahOne.jpg';
 
 class Billboard extends Component {
   constructor() {
      super();
      this.state = {
         title: 'لقائمتنا البريديه',
-        text: 'سجل الان لتصلك اخر اخبارنا... و احصل على فرصه لدخول السحب على جوائز قيمه',
+        text: 'سجل الان لتصلك اخر اخبارنا',
         button: 'سجل هنا',
         link: 'http://farahalhumaidhi.us14.list-manage.com/subscribe?u=ae232d495f9255f8b628c4d84&id=2e4b924c11',
      }
   }
   render() {
     const style = {
-    //   background: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(10, 10, 10, 0.25)), rgba(0, 0, 0, 0.1) url(${Background}) no-repeat`,
-      background: `url(${Background}) no-repeat`,
-      backgroundPosition: 'center top',
-      backgroundSize: 'contain',
+      background: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(10, 10, 10, 0.25)), rgba(0, 0, 0, 0.1) url(${Background}) no-repeat`,
+      backgroundPosition: '25% 50%',
+      backgroundSize: 'cover',
       width: '100%',
     }
 
