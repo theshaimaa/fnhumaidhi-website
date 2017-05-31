@@ -4,6 +4,8 @@ import ShoppingElement from './shopping-element.js';
 class ShoppingList extends Component {
    render() {
       let elements = this.props.content.elements;
+      const video = this.props.content.video;
+
       const containerStyle = {
          padding: "30px 30px",
       };
@@ -32,12 +34,31 @@ class ShoppingList extends Component {
          padding: "10px 0",
       };
 
+      const mediaDivStyle = {
+          margin: "10px auto",
+          padding: "20px 0"
+      };
+
+      const embed = {
+          backgroundSize: 'contain',
+          backgroundPosition: 'center center'
+      };
+
       return (
          <div className="container" style={containerStyle} >
             <div className="row">
                <h3 style={h3Style}>{this.props.content.title}</h3>
                <p style={pStyle}>{this.props.content.text}</p>
             </div>
+            {video
+                ? (<div style={mediaDivStyle}>
+                    <div className="embed-responsive embed-responsive-16by9" style={embed}>
+                        <iframe className="embed-responsive-item" src={video} allowFullScreen/>
+                    </div>
+                </div>)
+                :
+                null
+            }
             <div className="container">
               <div className="row">
                 <img src={this.props.content.image} role="presentation" style={imageStyle}/>

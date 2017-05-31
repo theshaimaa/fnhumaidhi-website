@@ -1,5 +1,60 @@
 const BlogPosts = [
     {
+        'title': 'افضل ٥ الوان في غرفة النوم',
+        'id': 'e813a4c158a542ac846867641fa22f96',
+        'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2Fe813a4c158a542ac846867641fa22f96%2F0.png?alt=media&token=aa75ed04-3f76-438c-ac21-46f934064c0e',
+    },
+    {
+        'title': 'تصميمها بنفسك - حديقة صغيرة في مطبخنا',
+        'id': 'f5bf23198c964a309d8ba7eb71c21ca9',
+        'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2Ff5bf23198c964a309d8ba7eb71c21ca9%2Ffarah.png?alt=media&token=eea93171-986e-429a-aca6-bc2a5f44c4bd',
+    },
+    {
+        'title': 'فيلا سكنية مطلة على البحر',
+        'id': '656f19f37e0548d58bc57670ebe08fb3',
+        'imageURL': "https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2F656f19f37e0548d58bc57670ebe08fb3%2F0.png?alt=media&token=9b6d89d4-3688-49c2-99fa-2da92c0f0d21",
+    },
+    {
+        'title': 'مود بورد صالات بقرب المسبح',
+        'id': '92882289a86d4d8d975bca6c0d4b450a',
+        'imageURL': "https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2F92882289a86d4d8d975bca6c0d4b450a%2F0.png?alt=media&token=9b9257b8-81c9-42de-b2c0-2859ff37b4bf",
+    },
+    {
+        'title': 'انواع القنفات لتصميم غرفة معيشة كلها روعة',
+        'id': '3bc3b2d56c4b453b8baac04e59b3ebca',
+        'imageURL': "https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2F3bc3b2d56c4b453b8baac04e59b3ebca%2F0.png?alt=media&token=b6740486-4328-4f26-a0c7-3f6ebf30df4f",
+    },
+    {
+        'title': 'خمسة اغلاط بتصميم المنازل',
+        'id': '35e186a44ecd4504b587599e8da15f9c',
+        'imageURL': "https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2F35e186a44ecd4504b587599e8da15f9c%2F0.jpg?alt=media&token=ecb0530a-32c7-4d5d-bbb6-076f46dac45a",
+    },
+    {
+        'title': 'جولة ببيت عجبني',
+        'id': 'f9af019f864144409d4d021295660d3c',
+        'imageURL': "https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2Ff9af019f864144409d4d021295660d3c%2F1.jpg?alt=media&token=6ea8e2ad-88a1-435c-a06d-7b6905aa2483",
+    },
+    {
+        'title': "مود بورد استوائي",
+        'id': '2b0a4fd1d60d4a3aa26fa727e95bfc1b',
+        'imageURL': "https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2F2b0a4fd1d60d4a3aa26fa727e95bfc1b%2Fvideo.jpg?alt=media&token=b981551d-f6e3-4e4c-9995-8ee663305f32",
+    },
+    {
+        'title':'افكار ذكية في التخزين لغرفة طفلك',
+        'id': '1da3e40bda4a4ae497c969b0d60d4a44',
+        'imageURL': "https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2F1da3e40bda4a4ae497c969b0d60d4a44%2F0.jpg?alt=media&token=b692db5a-170a-43c8-9ffb-3f81eb50e00a",
+    },
+    {
+        'title': "الاخضر.. للسرير",
+        'id': 'd5298770e1a44b69b6db801bb41ffec5',
+        'imageURL': "https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2Fd5298770e1a44b69b6db801bb41ffec5%2F0.jpg?alt=media&token=cfdd43f4-a174-4db9-a6c4-af96bfc254b2",
+    },
+    {
+        'title': 'مكان في البيت مخصص للعمل',
+        'id': '4e21b7943d194cedb63e162d1958fc48',
+        'imageURL': "https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2F4e21b7943d194cedb63e162d1958fc48%2F0.jpg?alt=media&token=a5695652-cde9-4ab4-9e22-1a9a6a086832",
+    },
+    {
         'title': "خطط للمساحات الصغيرة لتبدوا بشكل أكبر",
         'id': '1997e2534a0a40deac9bb7dd3a01db60',
         'imageURL': "https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2F1997e2534a0a40deac9bb7dd3a01db60%2F0.jpg?alt=media&token=fa6529ab-20cd-4c82-980c-734e97357972",

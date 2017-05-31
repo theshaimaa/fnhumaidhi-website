@@ -43,7 +43,7 @@ class Episodes extends Component {
                 <div className="container-fluid">
                     <div className="container" style={container}>
                         <div className="row" style={style}>
-                            <h3>تراقبوا حلقاتنا القادمة</h3>
+                            <h3>ترقبوا حلقاتنا القادمة</h3>
                         </div>
                     </div>
                 </div>

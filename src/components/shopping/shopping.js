@@ -7,6 +7,55 @@ import ImageThree from '../../assets/images/shopping/Three.png';
 
 const content = [
     {
+        "title": 'غرفة طفل مودرن بالوان حديثة',
+        "text": 'ذكرت في حلقاتي السابقة في برنامج تصاميم عن غرف الاطفال و الالوان اللي افضلها لغرف الاطفال و ذكرت انه مو لازم دايما نتقيد بالالوان التقليدية اللي اهي الازرق للاولاد و الوردي للبنات، في لوحة الافكار الموجودة جمعت من محلات مختلفة في الكويت و في دول الخليج اثاث لتكوين غرفة طفل بالالوان المحايدة مع اللون الاصفر اللي دخل حتى يعطي تطعيمة جميلة في الغرفة. السجادة في لوحة الافكار هذه هي القطعة الاساسية اللي من خلالها استخرجت الوان الغرفة. بعض القطع الوانها سادة و بعضها منقشة. الاستخدام الصحيح لخلط الاقمشة هي اننا نقدر نخلط اي نقشة مع اي نقشة ثانية و لكن كل اللي علينا نسويه اننا نلتزم بالالوان الموجودة بين نقشة و الثانية. مثل لوحة الافكار اللي امامكم، السلة فيها نقشة و السجاد فيها نقشة و حتى فرش السرير فيه نقشة مختلفة تماما عن النقشات الباقية، اللي خلى التصميم ينجح انهم فيهم من نفس الالوان.',
+        "video": 'https://www.youtube.com/embed/tFBtATHlGig',
+        "image": 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Ffive%2Fmain.jpg?alt=media&token=aedeb802-92b2-4480-b225-6a0ee12d8d0d',
+        "elements": [
+            {
+                'title': 'West Elm',
+                'link': 'https://www.instagram.com/westelmmena/',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Ffive%2FWest%20Elm_Carpet.png?alt=media&token=afe813e4-f02b-4752-90ee-461042275091',
+            }, {
+                'title': 'H&M Home',
+                'link': 'https://www.instagram.com/hm_home/',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Ffive%2FHM_Home.png?alt=media&token=8a4a8a0c-5e00-4703-b739-d847be65d7e8',
+            }, {
+                'title': 'H&M Home',
+                'link': 'https://www.instagram.com/hm_home/',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Ffive%2FHM_Home_Curtain.png?alt=media&token=f3960218-7c73-490b-b0dd-e42556929f55',
+            }, {
+                'title': 'IKEA',
+                'link': 'https://www.instagram.com/ikeakuwait/',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Ffive%2FIKEA_plant.png?alt=media&token=f88ce66a-bbe8-4676-90d8-804243097a63',
+            }, {
+                'title': 'IKEA',
+                'link': 'https://www.instagram.com/ikeakuwait/',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Ffive%2FIKEA_Sofa.png?alt=media&token=ccfbd408-1d9f-4279-8ac2-e35aedea5814',
+            },  {
+                'title': 'Pottery Barn',
+                'link': 'https://www.instagram.com/potterybarnmena/',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Ffive%2FPottery%20Barn.png?alt=media&token=1c0861c6-d985-4fd3-be22-81dfadebb0b0',
+            }, {
+                'title': 'Pottery Barn',
+                'link': 'https://www.instagram.com/potterybarnmena/',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Ffive%2FPottery%20Barn_Bag.png?alt=media&token=6eb83e6d-ba08-4bb4-abc4-eca3eca134f6',
+            }, {
+                'title': 'Pottery Barn',
+                'link': 'https://www.instagram.com/potterybarnmena/',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Ffive%2FPottery%20Barn_Cot.png?alt=media&token=9ca21a5b-04d4-4114-8e1f-fde4b537c61d',
+            }, {
+                'title': 'SUM',
+                'link': 'https://www.instagram.com/sum_kw/',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Ffive%2FSUM.png?alt=media&token=3ac1d575-ecee-4cfd-8cb7-50fa13574c6d',
+            }, {
+                'title': 'AL SARRAF',
+                'link': 'https://www.instagram.com/alsarraf1971/',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Ffive%2FAl%20SARRAF_Floor.jpg?alt=media&token=b7d6c605-97d3-4c05-ae38-32afb273f8bf',
+            },
+        ]
+    },
+    {
         "title": 'حمام مودرن بالوان جريئة',
         "text": 'ما يمنع ان يكون التصميم الداخلي موجود حتى في الحمامات، كثير منا يجهل اهمية التصميم لهذه الزاوية في البيت و يعتبر تصميمها دايما تقليدي اما كل شي ابيض او لون موحد في المكان. في لوحة الافكار اللي عندنا اليوم حبيت اجمع لكم قطع مفروشات من محلات مختلفة لخلق حمام بستايل مودرن و عصري. الالوان المستخدمة هي الالوان المحايدة بالاضافة الى اللون الازرق و لون الورد الموجود في فازة الورد من بيسز باي فرح الذهبية. بتطعيم الحمام بلون الازرق اللي يتماشى مع الموضة في الستاير و الكرسي الجانبي اعطى نوع من الانتباه و الجرأة في التصميم. و أكيد اضافة الورد الاوركيد في الحمام يعطي الاناقة و النعومة في منطقة الحمام. كونوا جريئين في اختيار اثاثكم و لا تعتمدون فقط على الاطقم التقليدية لتكوين حمام جميل. الحمام الانيق اللي يمشي مع الموضة ما يتقيد بنوع اثاث معين لكل الحمام، بل نقدر نجمع اثاثه من اكثر من محل و يكون عندنا حمام ما حد عنده مثله.',
         "image": 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Ffour%2FMain.png?alt=media&token=6be847c8-6f97-482f-9a2d-1508d752d87f',
@@ -35,7 +84,7 @@ const content = [
                 'title': 'H&M Home',
                 'link': 'https://www.instagram.com/hm_home/',
                 'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Ffour%2FH%26M%20Home.png?alt=media&token=ef8f7ac5-ac3b-419c-82d4-69f2bcaaf1ed',
-            }
+            },
         ]
     },
     {

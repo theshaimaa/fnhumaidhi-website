@@ -1,13 +1,13 @@
 const NewPosts = [
     {
-        'title': "خطط للمساحات الصغيرة لتبدوا بشكل أكبر",
-        'link': 'blog-post/1997e2534a0a40deac9bb7dd3a01db60',
-        'imageURL': "https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2F1997e2534a0a40deac9bb7dd3a01db60%2F0.jpg?alt=media&token=fa6529ab-20cd-4c82-980c-734e97357972",
+        'title': 'افضل ٥ الوان في غرفة النوم',
+        'link': 'blog-post/e813a4c158a542ac846867641fa22f96',
+        'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2Fe813a4c158a542ac846867641fa22f96%2F0.png?alt=media&token=aa75ed04-3f76-438c-ac21-46f934064c0e',
     },
     {
-        'title': 'حمام مودرن بالوان جريئة',
+        'title': 'غرفة طفل مودرن بالوان حديثة',
         'link': 'shopping',
-        'imageURL': "https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Ffour%2FMain.png?alt=media&token=6be847c8-6f97-482f-9a2d-1508d752d87f",
+        'imageURL': "https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Ffive%2Fmain.jpg?alt=media&token=aedeb802-92b2-4480-b225-6a0ee12d8d0d",
     },
     {
         'title': 'ابتكارات و افكار للمناشف و الفوط في الحمامات',
