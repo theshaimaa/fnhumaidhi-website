@@ -22,4 +22,5 @@ Run `npm start` for previewing.
 ## Deployment
 
 Run `npm run build` will build the app for production to the build folder.
+
 Run `firebase deploy` will push the build to firebase hosting.
