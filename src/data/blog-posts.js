@@ -1,5 +1,15 @@
 const BlogPosts = [
     {
+        'title': 'نصائح لكل عروس لبيت الاحلام ولا في الخيال',
+        'id': '201706081440',
+        'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2F201706081440%2F0.jpg?alt=media&token=0dd96ca7-743a-4526-b12c-acdb1a3ba1fd',
+    },
+    {
+        'title': 'لو ارجع ١٣ سنه',
+        'id': 'd63b61aa79944aec98a76d1a2d29f001',
+        'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2Fd63b61aa79944aec98a76d1a2d29f001%2F0.jpeg?alt=media&token=c7085c02-cc32-437b-8465-76114caa297d'
+    },
+    {
         'title': 'افضل ٥ الوان في غرفة النوم',
         'id': 'e813a4c158a542ac846867641fa22f96',
         'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2Fe813a4c158a542ac846867641fa22f96%2F0.png?alt=media&token=aa75ed04-3f76-438c-ac21-46f934064c0e',
