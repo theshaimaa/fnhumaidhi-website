@@ -1,8 +1,8 @@
 const NewPosts = [
     {
-        'title': 'افضل ٥ الوان في غرفة النوم',
-        'link': 'blog-post/e813a4c158a542ac846867641fa22f96',
-        'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2Fe813a4c158a542ac846867641fa22f96%2F0.png?alt=media&token=aa75ed04-3f76-438c-ac21-46f934064c0e',
+        'title': 'مود بورد الوان باهته لكن جميله',
+        'link': 'blog-post/201706140920',
+        'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2F201706140920%2F0.png?alt=media&token=b1eade46-9b1f-440c-ba55-170a063a1495',
     },
     {
         'title': 'غرفة طفل مودرن بالوان حديثة',
