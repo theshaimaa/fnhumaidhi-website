@@ -7,11 +7,72 @@ import ImageThree from '../../assets/images/shopping/Three.png';
 
 const content = [
     {
-        "title": 'غرفة طفل مودرن بالوان حديثة',
-        "text": 'ذكرت في حلقاتي السابقة في برنامج تصاميم عن غرف الاطفال و الالوان اللي افضلها لغرف الاطفال و ذكرت انه مو لازم دايما نتقيد بالالوان التقليدية اللي اهي الازرق للاولاد و الوردي للبنات، في لوحة الافكار الموجودة جمعت من محلات مختلفة في الكويت و في دول الخليج اثاث لتكوين غرفة طفل بالالوان المحايدة مع اللون الاصفر اللي دخل حتى يعطي تطعيمة جميلة في الغرفة. السجادة في لوحة الافكار هذه هي القطعة الاساسية اللي من خلالها استخرجت الوان الغرفة. بعض القطع الوانها سادة و بعضها منقشة. الاستخدام الصحيح لخلط الاقمشة هي اننا نقدر نخلط اي نقشة مع اي نقشة ثانية و لكن كل اللي علينا نسويه اننا نلتزم بالالوان الموجودة بين نقشة و الثانية. مثل لوحة الافكار اللي امامكم، السلة فيها نقشة و السجاد فيها نقشة و حتى فرش السرير فيه نقشة مختلفة تماما عن النقشات الباقية، اللي خلى التصميم ينجح انهم فيهم من نفس الالوان.',
-        "video": 'https://www.youtube.com/embed/tFBtATHlGig',
-        "image": 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Ffive%2Fmain.jpg?alt=media&token=aedeb802-92b2-4480-b225-6a0ee12d8d0d',
-        "elements": [
+        'title': 'غرفة الطعام بخلطة من الستايلات؟!',
+        'text':  'نعم، نقدر نخلط كذا ستايل حتى نخلق اللي نبيه في الديكور. في هذه الغرفة الطعام حبيت امزج بين الستايل الحديث و الصناعي بالاضافة الى ستايل الفينتج من خلال الالوان. الطاولة ناعمة جدا و ارجلها رفيعة و كلها لون خشبي واحد، المقاعد في هذه الغرفة انقسمت الى نوعين: النوع الاول هو كراسي منجدة بلون البيج و ارجلها بني غامق، و النوع الثاني في غرفة الاكل هو المقعد الخشبي اللي لونه من لون الطاولة و فوقه قطعة اسفنج باللون الازرق الناعم.',
+        'text2': 'على الطاولة اكسسوارات مختلفة، منها مودرن و حديث و منها حديدية و معادن فيها من الستايل الصناعي. الاضاءة من دون اختلاف نلاقي فيها كل مواصفات الستايل الصناعي من خلال الحبال و الحديد و الزجاج المكشوف. خطوط ناعمة في الغرفة في السجادة و ورق الجدران و حتى الستاير. و الالوان المحايدة هي الطاغية بالاضافة الى لمسات اللون الاخضر الفاتح الباستل و الازرق الباستل اعطوا نعومة و رقي للغرفة.',
+        'image': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Fsix%2FMOOD%20BOARD.png?alt=media&token=dff2615f-171a-4f60-9ce0-3910a171151b',
+        'elements': [
+            {
+                'title': 'ALSARRAF DECOR',
+                'link': 'https://www.instagram.com/alsarrafdecor/',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Fsix%2FALSARRAF%20DECOR.jpg?alt=media&token=74bd6861-7d18-4f82-9696-a231791bdab8',
+            }, {
+                'title': 'SUM',
+                'link': 'https://www.instagram.com/sum_kw/',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Fsix%2FSUM%202.jpg?alt=media&token=31abfea7-ba17-4f98-890e-07d3f3a8a78b',
+            }, {
+                'title': 'SUM',
+                'link': 'https://www.instagram.com/sum_kw/',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Fsix%2FSUM%20.jpg?alt=media&token=9007cbcf-2b40-4a53-b7ca-efb302a2dfae',
+            }, {
+                'title': 'Pottery Barn',
+                'link': 'https://www.instagram.com/potterybarnmena/',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Fsix%2FPOTTERY%20BARN%20.jpg?alt=media&token=5eab9f98-4ed9-4adc-81ec-fd656af246ab',
+            }, {
+                'title': 'H&M Home',
+                'link': 'https://www.instagram.com/hm_home/',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Fsix%2FH%26M.PNG?alt=media&token=1d301b60-5e73-4e38-9a9f-68570c5a263b',
+            },  {
+                'title': 'Concretist',
+                'link': 'https://www.instagram.com/concretist/',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Fsix%2FCONCRETIST.png?alt=media&token=b40606fe-bba8-4d63-beaf-7f455628314c',
+            }, {
+                'title': 'Pottery Barn',
+                'link': 'https://www.instagram.com/potterybarnmena/',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Fsix%2FPOTTERY%20BARN%202%20.jpg?alt=media&token=1374cf56-29dd-45b2-b9ff-ab437fa90a7a',
+            }, {
+                'title': 'West Elm',
+                'link': 'https://www.instagram.com/westelmmena/',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Fsix%2FWEST%20ELM.jpg?alt=media&token=ed081fd5-72d1-40e0-9691-286f19463dc9',
+            }, {
+                'title': 'ALSARRAF DECOR',
+                'link': 'https://www.instagram.com/alsarrafdecor/',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Fsix%2FALSARRAF%20DECOR%202.jpg?alt=media&token=5bf568fb-4eb0-4172-b4ab-115569ee4ebf',
+            }, {
+                'title': 'West Elm',
+                'link': 'https://www.instagram.com/westelmmena/',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Fsix%2FWEST%20ELM%202.JPG?alt=media&token=f7f45ad5-fdd4-49aa-be7d-6a49c2a1f259',
+            }, {
+                'title': 'IKEA',
+                'link': 'https://www.instagram.com/ikeakuwait/',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Fsix%2FIKEA.jpg?alt=media&token=611c1dd7-1660-4e96-9061-2429a110fd90',
+            }, {
+                'title': 'RESTORAL HARDWARE',
+                'link': '',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Fsix%2FRESTORAL%20HARDWARE.jpg?alt=media&token=f06f02c4-c214-495c-b26b-3b293c4b3bfe',
+            }, {
+                'title': 'West Elm',
+                'link': 'https://www.instagram.com/westelmmena/',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Fsix%2FWEST%20ELM%203.jpg?alt=media&token=ead4e523-63e2-462f-99f8-2d20d92ff33f',
+            },
+        ]
+    },
+    {
+        'title': 'غرفة طفل مودرن بالوان حديثة',
+        'text': 'ذكرت في حلقاتي السابقة في برنامج تصاميم عن غرف الاطفال و الالوان اللي افضلها لغرف الاطفال و ذكرت انه مو لازم دايما نتقيد بالالوان التقليدية اللي اهي الازرق للاولاد و الوردي للبنات، في لوحة الافكار الموجودة جمعت من محلات مختلفة في الكويت و في دول الخليج اثاث لتكوين غرفة طفل بالالوان المحايدة مع اللون الاصفر اللي دخل حتى يعطي تطعيمة جميلة في الغرفة. السجادة في لوحة الافكار هذه هي القطعة الاساسية اللي من خلالها استخرجت الوان الغرفة. بعض القطع الوانها سادة و بعضها منقشة. الاستخدام الصحيح لخلط الاقمشة هي اننا نقدر نخلط اي نقشة مع اي نقشة ثانية و لكن كل اللي علينا نسويه اننا نلتزم بالالوان الموجودة بين نقشة و الثانية. مثل لوحة الافكار اللي امامكم، السلة فيها نقشة و السجاد فيها نقشة و حتى فرش السرير فيه نقشة مختلفة تماما عن النقشات الباقية، اللي خلى التصميم ينجح انهم فيهم من نفس الالوان.',
+        'video': 'https://www.youtube.com/embed/tFBtATHlGig',
+        'image': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Ffive%2Fmain.jpg?alt=media&token=aedeb802-92b2-4480-b225-6a0ee12d8d0d',
+        'elements': [
             {
                 'title': 'West Elm',
                 'link': 'https://www.instagram.com/westelmmena/',
@@ -49,17 +110,17 @@ const content = [
                 'link': 'https://www.instagram.com/sum_kw/',
                 'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Ffive%2FSUM.png?alt=media&token=3ac1d575-ecee-4cfd-8cb7-50fa13574c6d',
             }, {
-                'title': 'AL SARRAF',
-                'link': 'https://www.instagram.com/alsarraf1971/',
+                'title': 'ALSARRAF DECOR',
+                'link': 'https://www.instagram.com/alsarrafdecor/',
                 'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Ffive%2FAl%20SARRAF_Floor.jpg?alt=media&token=b7d6c605-97d3-4c05-ae38-32afb273f8bf',
             },
         ]
     },
     {
-        "title": 'حمام مودرن بالوان جريئة',
-        "text": 'ما يمنع ان يكون التصميم الداخلي موجود حتى في الحمامات، كثير منا يجهل اهمية التصميم لهذه الزاوية في البيت و يعتبر تصميمها دايما تقليدي اما كل شي ابيض او لون موحد في المكان. في لوحة الافكار اللي عندنا اليوم حبيت اجمع لكم قطع مفروشات من محلات مختلفة لخلق حمام بستايل مودرن و عصري. الالوان المستخدمة هي الالوان المحايدة بالاضافة الى اللون الازرق و لون الورد الموجود في فازة الورد من بيسز باي فرح الذهبية. بتطعيم الحمام بلون الازرق اللي يتماشى مع الموضة في الستاير و الكرسي الجانبي اعطى نوع من الانتباه و الجرأة في التصميم. و أكيد اضافة الورد الاوركيد في الحمام يعطي الاناقة و النعومة في منطقة الحمام. كونوا جريئين في اختيار اثاثكم و لا تعتمدون فقط على الاطقم التقليدية لتكوين حمام جميل. الحمام الانيق اللي يمشي مع الموضة ما يتقيد بنوع اثاث معين لكل الحمام، بل نقدر نجمع اثاثه من اكثر من محل و يكون عندنا حمام ما حد عنده مثله.',
-        "image": 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Ffour%2FMain.png?alt=media&token=6be847c8-6f97-482f-9a2d-1508d752d87f',
-        "elements": [
+        'title': 'حمام مودرن بالوان جريئة',
+        'text': 'ما يمنع ان يكون التصميم الداخلي موجود حتى في الحمامات، كثير منا يجهل اهمية التصميم لهذه الزاوية في البيت و يعتبر تصميمها دايما تقليدي اما كل شي ابيض او لون موحد في المكان. في لوحة الافكار اللي عندنا اليوم حبيت اجمع لكم قطع مفروشات من محلات مختلفة لخلق حمام بستايل مودرن و عصري. الالوان المستخدمة هي الالوان المحايدة بالاضافة الى اللون الازرق و لون الورد الموجود في فازة الورد من بيسز باي فرح الذهبية. بتطعيم الحمام بلون الازرق اللي يتماشى مع الموضة في الستاير و الكرسي الجانبي اعطى نوع من الانتباه و الجرأة في التصميم. و أكيد اضافة الورد الاوركيد في الحمام يعطي الاناقة و النعومة في منطقة الحمام. كونوا جريئين في اختيار اثاثكم و لا تعتمدون فقط على الاطقم التقليدية لتكوين حمام جميل. الحمام الانيق اللي يمشي مع الموضة ما يتقيد بنوع اثاث معين لكل الحمام، بل نقدر نجمع اثاثه من اكثر من محل و يكون عندنا حمام ما حد عنده مثله.',
+        'image': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Ffour%2FMain.png?alt=media&token=6be847c8-6f97-482f-9a2d-1508d752d87f',
+        'elements': [
             {
                 'title': 'West Elm',
                 'link': 'https://www.instagram.com/westelmmena/',
@@ -88,10 +149,10 @@ const content = [
         ]
     },
     {
-        "title": 'باستيلات بستايل حديث',
-        "text": 'تصميم اي غرفة بالبيت ما يعتمد كيف نبدا..يعتمد على اي قطعة اخترتها من البداية و عجبتنني و شلون اقدر اصمم كل الغرفة على اساسها. في هذه اللوحة اللي نقدر نقول عنها لوحة افكار لتصميم غرفة جلوس بديت استوحي التصميم من اللوحة و استخرجت منها باقي قطع المفروشات حتى تكوّنت غرفة جلوس بستايل المودرن و العصري بالوان الباستيلات.مثل ما نشوف كل القطع سادة و ناعمة الا اللوحة و المخدة الموجودة على القنفة و فيها زخرفة تتماشى الوانها مع الوان اللوحة و تكملة الغرفة. لهذا دايما ننتبه في تصاميمنا على اتقان الالوان صح و لو كانت النقشات مختلفة و كثيرة.',
-        "image": `${ImageOne}`,
-        "elements": [
+        'title': 'باستيلات بستايل حديث',
+        'text': 'تصميم اي غرفة بالبيت ما يعتمد كيف نبدا..يعتمد على اي قطعة اخترتها من البداية و عجبتنني و شلون اقدر اصمم كل الغرفة على اساسها. في هذه اللوحة اللي نقدر نقول عنها لوحة افكار لتصميم غرفة جلوس بديت استوحي التصميم من اللوحة و استخرجت منها باقي قطع المفروشات حتى تكوّنت غرفة جلوس بستايل المودرن و العصري بالوان الباستيلات.مثل ما نشوف كل القطع سادة و ناعمة الا اللوحة و المخدة الموجودة على القنفة و فيها زخرفة تتماشى الوانها مع الوان اللوحة و تكملة الغرفة. لهذا دايما ننتبه في تصاميمنا على اتقان الالوان صح و لو كانت النقشات مختلفة و كثيرة.',
+        'image': `${ImageOne}`,
+        'elements': [
             {
                 'title': 'Flamant',
                 'link': 'https://www.instagram.com/aljeraiwy/',
@@ -132,10 +193,10 @@ const content = [
         ]
     },
     {
-        "title": 'الجلد بستايل مودرن',
-        "text": 'في الستايل الحديث لا نستغرب من الجلد فيه و لا نفكر انه هذه المادة فقط تتماشى مع ستايل الكلاسيكي، في الموضة الحديثة الجلد له مكانه و في هذه اللوحة قررت اجمع مفروشات من مختلف المحلات في الكويت و اسوي غرفة جلوس مميزة. الوانها جدا ناعمة و هادية بالازرق اللي موجود في السجادة و المخدات، و بلون العسلي الموجود في جلد القنفة الكبيرة في الغرفة و غير هذه الالوان كلها تصير الوان حيادية بالاكسسوارات و القطع الجمالية. فنبتدي باللوحات و المرايا لونهم ابيض، الطاولات الجانبية لون البيج و الاسود الاضاءة الجانبية رمادية، البفات او اللي نسميهم العثماني اسود و بيج. اللي عطى الغرفة ستايل المودرن بعد هو الكونكريت المتواجد في الزرع التجميلي للغرفة، زاد الغرفة اناقة و خلاها عصرية و تتماشى مع الموضة.',
-        "image": `${ImageTwo}`,
-        "elements": [
+        'title': 'الجلد بستايل مودرن',
+        'text': 'في الستايل الحديث لا نستغرب من الجلد فيه و لا نفكر انه هذه المادة فقط تتماشى مع ستايل الكلاسيكي، في الموضة الحديثة الجلد له مكانه و في هذه اللوحة قررت اجمع مفروشات من مختلف المحلات في الكويت و اسوي غرفة جلوس مميزة. الوانها جدا ناعمة و هادية بالازرق اللي موجود في السجادة و المخدات، و بلون العسلي الموجود في جلد القنفة الكبيرة في الغرفة و غير هذه الالوان كلها تصير الوان حيادية بالاكسسوارات و القطع الجمالية. فنبتدي باللوحات و المرايا لونهم ابيض، الطاولات الجانبية لون البيج و الاسود الاضاءة الجانبية رمادية، البفات او اللي نسميهم العثماني اسود و بيج. اللي عطى الغرفة ستايل المودرن بعد هو الكونكريت المتواجد في الزرع التجميلي للغرفة، زاد الغرفة اناقة و خلاها عصرية و تتماشى مع الموضة.',
+        'image': `${ImageTwo}`,
+        'elements': [
             {
                 'title': 'Al Maadan',
                 'link': 'https://www.instagram.com/almaadankw/',
@@ -176,10 +237,10 @@ const content = [
         ]
     },
     {
-        "title": 'رمادي عصري و حديث',
-        "text": 'في مراحل التصميم، مهم جداً دراسة المكان و مساحته و الألوان المناسبة للنشاط في المساحة اللي نريد نصممها. في غرفة الطعام هذه قررت اسوي هذه اللوحة اللي فيها كل ما في التصميم لغرفة الطعام. من سبع محلات للاثاث قدرت اخذ كل قطعة من مكان لانشاء غرفة الطعام بستايل المودرن و الالوان الرمادية و البيضاء مع تداخل مواد الخشب و الزجاج و العنصر الجميل النبات في كل مكان في البيت. من الموضة في غرف الطعام التشكيلة في اشكال المقاعد، مثل ما نشوف في لوحة المفروشات المختارة اني حبيت اختار نوعين للجلوس، كراسي عادية و مقعد لثلاث اشخاص. الطاولة الخشبية لغرفة الطعام تميزت بنعومتها و انها واضحة و غير ثقيلة. بالنسبة للسجاد فالزخرفة المختارة فيها راح تعطي جمال و اناقة لكل الغرفة لان كل شي غيرها من المفروشات ناعم و سادة. استخدام الكتان للستاير راح يزيد الغرفة بساطة مع تالق. و اكيد للاكسسوارات طعم خاص في اي غرفة في البيت. كسرنا الالوان الحيادية الرمادي و البيج بالازرق الخفيف في الاكسسوارات على طاولة الاكل و اللوحة المرسومة.',
-        "image": `${ImageThree}`,
-        "elements": [
+        'title': 'رمادي عصري و حديث',
+        'text': 'في مراحل التصميم، مهم جداً دراسة المكان و مساحته و الألوان المناسبة للنشاط في المساحة اللي نريد نصممها. في غرفة الطعام هذه قررت اسوي هذه اللوحة اللي فيها كل ما في التصميم لغرفة الطعام. من سبع محلات للاثاث قدرت اخذ كل قطعة من مكان لانشاء غرفة الطعام بستايل المودرن و الالوان الرمادية و البيضاء مع تداخل مواد الخشب و الزجاج و العنصر الجميل النبات في كل مكان في البيت. من الموضة في غرف الطعام التشكيلة في اشكال المقاعد، مثل ما نشوف في لوحة المفروشات المختارة اني حبيت اختار نوعين للجلوس، كراسي عادية و مقعد لثلاث اشخاص. الطاولة الخشبية لغرفة الطعام تميزت بنعومتها و انها واضحة و غير ثقيلة. بالنسبة للسجاد فالزخرفة المختارة فيها راح تعطي جمال و اناقة لكل الغرفة لان كل شي غيرها من المفروشات ناعم و سادة. استخدام الكتان للستاير راح يزيد الغرفة بساطة مع تالق. و اكيد للاكسسوارات طعم خاص في اي غرفة في البيت. كسرنا الالوان الحيادية الرمادي و البيج بالازرق الخفيف في الاكسسوارات على طاولة الاكل و اللوحة المرسومة.',
+        'image': `${ImageThree}`,
+        'elements': [
             {
                 'title': 'Abyat',
                 'link': 'https://www.instagram.com/abyat/',
@@ -224,12 +285,12 @@ const content = [
 class Shopping extends Component {
     render() {
         const containerStyle = {
-            padding: "30px 0px",
-            backgroundColor: "rgba(0, 0, 0, 0)"
+            padding: '30px 0px',
+            backgroundColor: 'rgba(0, 0, 0, 0)'
         };
 
         return (
-            <div dir="rtl" className="container-fluid" style={containerStyle}>
+            <div dir='rtl' className='container-fluid' style={containerStyle}>
                 <ShoppingList content={content[0]}/>
                 <Divider />
                 <ShoppingList content={content[1]}/>
@@ -237,6 +298,8 @@ class Shopping extends Component {
                 <ShoppingList content={content[2]}/>
                 <Divider />
                 <ShoppingList content={content[3]}/>
+                <Divider />
+                <ShoppingList content={content[4]}/>
             </div>
         );
     }

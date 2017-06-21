@@ -5,6 +5,7 @@ class ShoppingList extends Component {
    render() {
       let elements = this.props.content.elements;
       const video = this.props.content.video;
+      const text2 = this.props.content.text2;
 
       const containerStyle = {
          padding: "30px 30px",
@@ -49,6 +50,11 @@ class ShoppingList extends Component {
             <div className="row">
                <h3 style={h3Style}>{this.props.content.title}</h3>
                <p style={pStyle}>{this.props.content.text}</p>
+                {text2
+                    ? (<p style={pStyle}>{this.props.content.text2}</p>)
+                    :
+                    null
+                }
             </div>
             {video
                 ? (<div style={mediaDivStyle}>
