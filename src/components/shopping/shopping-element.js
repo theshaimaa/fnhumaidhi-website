@@ -35,7 +35,10 @@ class ShoppingElement extends Component {
       return (
          <div className="col-lg-4" style={contentContainer}>
             <div className="contentButton" style={buttonDivStyle}>
-               <a href={link} target="_blank"><p className="whiteButton">{this.props.element.title}</p></a>
+                {link.length > 0
+                    ? <a href={link} target="_blank"><p className="whiteButton">{this.props.element.title}</p></a>
+                    : <p className="whiteButton">{this.props.element.title}</p>
+                }
             </div>
             <div className="contentImage" style={elementStyle}></div>
          </div>
