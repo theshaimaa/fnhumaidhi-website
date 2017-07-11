@@ -1,5 +1,10 @@
 const BlogPosts = [
     {
+        'title': 'المصمم الداخلي.. له مستقبل؟',
+        'link': '201707121100',
+        'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2F201707121100%2FTHUMBNAIL_JULY_12.jpeg?alt=media&token=379e52f2-ea5e-446d-bb51-b9e2efb1f665',
+    },
+    {
         'title': 'ترتيب الارفف - نصائح من فرح الحميضي',
         'id': '201706281000',
         'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2F201706281000%2F0.png?alt=media&token=54410df1-ab92-4738-ae71-18aa6e485f71',
