@@ -1,7 +1,7 @@
 const BlogPosts = [
     {
         'title': 'المصمم الداخلي.. له مستقبل؟',
-        'link': '201707121100',
+        'id': '201707121100',
         'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2F201707121100%2FTHUMBNAIL_JULY_12.jpeg?alt=media&token=379e52f2-ea5e-446d-bb51-b9e2efb1f665',
     },
     {
