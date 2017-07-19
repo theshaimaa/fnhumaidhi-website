@@ -60,8 +60,7 @@ class ShoppingList extends Component {
                         <iframe className="embed-responsive-item" src={video} allowFullScreen/>
                     </div>
                 </div>)
-                :
-                null
+                : null
             }
             <div className="container">
               <div className="row">
@@ -83,6 +82,6 @@ class ShoppingList extends Component {
          })
       );
    };
-};
+}
 
 export default ShoppingList;

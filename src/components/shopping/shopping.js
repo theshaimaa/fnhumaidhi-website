@@ -382,6 +382,6 @@ class Shopping extends Component {
             })
         );
     };
-};
+}
 
 export default Shopping;

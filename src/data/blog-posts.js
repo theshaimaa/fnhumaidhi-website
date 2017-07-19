@@ -1,5 +1,10 @@
 const BlogPosts = [
     {
+        'title': 'تصميم الديكور ماله مستقبل... يقولون!',
+        'id': '201707191500',
+        'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2F201707191500%2FTHUMBNAIL.jpg?alt=media&token=c995cb31-ce2f-444d-911d-ce04cdb5c29c',
+    },
+    {
         'title': 'المصمم الداخلي.. له مستقبل؟',
         'id': '201707121100',
         'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2F201707121100%2FTHUMBNAIL_JULY_12.jpeg?alt=media&token=379e52f2-ea5e-446d-bb51-b9e2efb1f665',

@@ -24,42 +24,42 @@ class BlogSnippet extends Component {
 
         const containerStyle = {
             padding: "0px"
-        }
+        };
 
         const embed = {
             backgroundSize: 'contain',
             backgroundPosition: 'center center'
-        }
-
-        const text = this.props.text
-        const image = this.props.image
-        const video = this.props.video
+        };
 
         return (
             <div style={containerStyle}>
                 <div style={divStyle}>
-                    <p style={textStyle}>{text}</p>
+                    { Array.isArray(this.props.text)
+                        ? this.props.text.map(function(item) {
+                            return <p style={textStyle}>{item}</p>
+                        })
+                        : <p style={textStyle}>{this.props.text}</p>
+                    }
+
                 </div>
-                {image
+                {this.props.image
                     ? (<div style={mediaDivStyle}>
                         <img src={this.props.image} role="presentation" style={imageStyle}/>
                     </div>)
-                    :
-                    null
+                    : null
                 }
 
-                {video
+                {this.props.video
                     ? (<div style={mediaDivStyle}>
                         <div className="embed-responsive embed-responsive-16by9" style={embed}>
-                            <iframe className="embed-responsive-item" src={video} allowFullScreen/>
+                            <iframe className="embed-responsive-item" src={this.props.video} allowFullScreen/>
                         </div>
                     </div>)
-                    :
-                    null
+                    : null
                 }
             </div>
         );
     }
-};
+}
 
 export default BlogSnippet;
