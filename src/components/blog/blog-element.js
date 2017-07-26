@@ -5,7 +5,7 @@ class BlogElement extends Component {
    render() {
       const imageURL = this.props.element.imageURL;
       let id = this.props.element.id;
-      let url = `blog-post/${id}`
+      let url = `blog-post/${id}`;
 
       const elementStyle = {
          margin: "0px",
@@ -44,6 +44,6 @@ class BlogElement extends Component {
          </div>
       );
    }
-};
+}
 
 export default BlogElement;

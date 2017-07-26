@@ -5,7 +5,7 @@ import './index.css';
 import * as firebase from 'firebase';
 import { browserHistory } from 'react-router';
 
-var config = {
+let config = {
    apiKey: "AIzaSyA1q67LsUiqTy7ScVbyAPEH0Q6DRho4zR0",
    authDomain: "era-farah-alhumaidhi.firebaseapp.com",
    databaseURL: "https://era-farah-alhumaidhi.firebaseio.com",

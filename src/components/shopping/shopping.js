@@ -370,7 +370,7 @@ class Shopping extends Component {
             </div>
         );
     }
-    renderContent(content) {
+    static renderContent(content) {
         return (
             content.map(function(item, index) {
                 return (

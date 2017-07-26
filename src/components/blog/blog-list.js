@@ -32,7 +32,7 @@ class BlogList extends Component {
          </div>
       );
    };
-   renderBlogElements(elements) {
+   static renderBlogElements(elements) {
       return (
          elements.map(function(element, index) {
             return (
@@ -41,6 +41,6 @@ class BlogList extends Component {
          })
       );
    };
-};
+}
 
 export default BlogList;

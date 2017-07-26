@@ -73,7 +73,7 @@ class ShoppingList extends Component {
          </div>
       );
    };
-   renderBlogElements(elements) {
+   static renderBlogElements(elements) {
       return (
          elements.map(function(element, index) {
             return (
