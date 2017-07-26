@@ -1,5 +1,10 @@
 const BlogPosts = [
     {
+        'title': 'من هو المصمم الداخلي؟',
+        'id': '201707261413',
+        'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2F201707261413%2FTHUMBNAIL_JULY_26.jpeg?alt=media&token=3c617179-3b25-49dd-ad09-35437f2bc95a',
+    },
+    {
         'title': 'تصميم الديكور ماله مستقبل... يقولون!',
         'id': '201707191500',
         'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2F201707191500%2FTHUMBNAIL.jpg?alt=media&token=c995cb31-ce2f-444d-911d-ce04cdb5c29c',
