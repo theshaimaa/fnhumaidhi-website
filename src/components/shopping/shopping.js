@@ -8,6 +8,112 @@ import ImageThree from '../../assets/images/shopping/Three.png';
 const content = [
     {
         'id': 1,
+        'title': 'غرفة جلوس بستايل المودرن الاستوائي',
+        'text': [
+            'في فيديو سابق تعلمنا كيف نخلق مود بورد بالستايل (التروبيكال)، تعلمنا من خلاله الألوان و المواد المناسبة لهذا الستايل. الحين في هذه الفقرة، راح اوريكم من وين تقدرون تحصلون هذه المواد و المفروشات لتطبيق هذا الستايل في غرفكم و بيوتكم. ',
+            'و دايماً خلوا في بالكم، مثل ما دايماً انصح، لا تتقيدون بمحل واحد لتصميم كل المساحة اللي تبون تفرشونها.'
+        ],
+        'image': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Feight%2FPhoto%2011-9-16%2C%2011%2012%2050%20AM.jpg?alt=media&token=e64e34f3-e40d-457a-948e-012f005d717d',
+        'elements': [
+            {
+                'title': 'RESTORATION HARDWARE',
+                'link': '',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Feight%2FPhoto%204-9-17%2C%2010%2040%2019%20AM.jpg?alt=media&token=9a18e768-8e68-4e18-be3c-d6e92107443b',
+            },
+            {
+                'title': 'RESTORATION HARDWARE',
+                'link': '',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Feight%2FPhoto%204-9-17%2C%2010%2040%2025%20AM.jpg?alt=media&token=e35d08a8-9d01-4068-bccf-962d275941b1',
+            },
+            {
+                'title': 'RESTORATION HARDWARE',
+                'link': '',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Feight%2FPhoto%204-9-17%2C%2010%2040%2015%20AM.jpg?alt=media&token=897d4a37-83d1-43df-af95-0e50294897ce',
+            },
+            {
+                'title': 'AL SARRAF DECOR',
+                'link': 'https://www.instagram.com/alsarrafdecor/',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Feight%2FPhoto%204-9-17%2C%2010%2039%2038%20AM.jpg?alt=media&token=5a20238e-e458-43de-b9ba-315b2b3bc937',
+            },
+            {
+                'title': 'WEST ELM',
+                'link': 'https://www.instagram.com/westelmmena/',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Feight%2FPhoto%204-9-17%2C%2010%2040%2039%20AM.jpg?alt=media&token=e094c65a-2153-432d-a247-40925021ec3c',
+            },
+            {
+                'title': 'RESTORATION HARDWARE',
+                'link': '',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Feight%2FPhoto%204-9-17%2C%2010%2040%2022%20AM.jpg?alt=media&token=02aa486b-1b5d-4601-b52f-c9e11f476e1d',
+            },
+            {
+                'title': 'H&M HOME',
+                'link': 'https://www.instagram.com/hm_home/',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Feight%2FPhoto%204-9-17%2C%2010%2040%2000%20AM.png?alt=media&token=048304e1-1d75-4506-a578-167a998f0744',
+            },
+            {
+                'title': 'H&M HOME',
+                'link': 'https://www.instagram.com/hm_home/',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Feight%2FPhoto%204-9-17%2C%2010%2039%2053%20AM.png?alt=media&token=51b63bf9-e3ef-443a-8161-aa1a1df5c204',
+            },
+            {
+                'title': 'H&M HOME',
+                'link': 'https://www.instagram.com/hm_home/',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Feight%2FPhoto%204-9-17%2C%2010%2039%2042%20AM.png?alt=media&token=fdf4d1db-d28f-4f51-9f7f-d45d31e09c45',
+            },
+            {
+                'title': 'DONE INTERIOR',
+                'link': 'https://www.instagram.com/noorbineidan/',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Feight%2FPhoto%203-22-17%2C%2011%2032%2012%20AM.jpg?alt=media&token=7b4b4b0e-9d9e-40ea-9d9c-04bbec4a345e',
+            },
+            {
+                'title': 'PIECES BY N',
+                'link': 'https://www.instagram.com/piecesbyfarah/',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Feight%2FPhoto%203-22-17%2C%2011%2032%2013%20AM.jpg?alt=media&token=21d36dfc-78ff-4a50-abed-0c5c2d9d5b89',
+            },
+            {
+                'title': 'H&M HOME',
+                'link': 'https://www.instagram.com/hm_home/',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Feight%2FPhoto%204-9-17%2C%2010%2039%2056%20AM.png?alt=media&token=fc32d141-de39-4fab-90f1-a00186ee4a4e',
+            },
+            {
+                'title': 'ABYAT',
+                'link': 'https://www.instagram.com/abyat/',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Feight%2FPhoto%204-9-17%2C%2010%2040%2032%20AM.jpg?alt=media&token=cac5d901-9c14-49e6-96bb-1f1b0090a2c2',
+            },
+            {
+                'title': 'ZARA HOME',
+                'link': 'https://www.instagram.com/zarahome/',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Feight%2FPhoto%204-9-17%2C%2010%2039%2035%20AM.jpg?alt=media&token=d2c4cf3b-e29f-43be-98ad-8c6f6f8121dc',
+            },
+            {
+                'title': 'DONE INTERIOR',
+                'link': 'https://www.instagram.com/noorbineidan/',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Feight%2FPhoto%203-22-17%2C%2011%2032%2011%20AM.jpg?alt=media&token=d94554ba-1848-4982-ab65-7ae9d4299770',
+            },
+            {
+                'title': 'IKEA',
+                'link': 'https://www.instagram.com/ikeakuwait/',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Feight%2FPhoto%204-9-17%2C%2010%2040%2011%20AM.jpg?alt=media&token=344112cf-ffcf-48dc-9cdc-c974bf88d72b',
+            },
+            {
+                'title': 'IKEA',
+                'link': 'https://www.instagram.com/ikeakuwait/',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Feight%2FPhoto%204-9-17%2C%2010%2040%2004%20AM.jpg?alt=media&token=a240e86d-c6e6-4b34-b03f-3615b216cd29',
+            },
+            {
+                'title': 'IKEA',
+                'link': 'https://www.instagram.com/ikeakuwait/',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Feight%2FPhoto%204-9-17%2C%2010%2040%2008%20AM.jpg?alt=media&token=224d7f5e-0ab8-461e-902a-8e5a8f545078',
+            },
+            {
+                'title': 'SUM',
+                'link': 'https://www.instagram.com/sum_kw/',
+                'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Feight%2FPhoto%204-9-17%2C%2010%2040%2028%20AM.jpg?alt=media&token=5ff87131-f70f-433d-9e7c-01c139b3ac4f',
+            },
+        ]
+    },
+    {
+        'id': 2,
         'title': 'مكتب مودرن و صناعي',
         'text': [
             'نقدر نخلط اكثر من ستايل حتى نخلق اللي نبيه في الديكور. في هذا المكتب اللي نقدر ننفذه في البيت و في مكتب العمل، خلطت من مختلف المحلات تشكيلة رائعة لتكوين مكتب مميز بستايل المودرن و الصناعي.',
@@ -74,7 +180,7 @@ const content = [
         ]
     },
     {
-        'id': 2,
+        'id': 3,
         'title': 'غرفة الطعام بخلطة من الستايلات؟!',
         'text':  [
             'نعم، نقدر نخلط كذا ستايل حتى نخلق اللي نبيه في الديكور. في هذه الغرفة الطعام حبيت امزج بين الستايل الحديث و الصناعي بالاضافة الى ستايل الفينتج من خلال الالوان. الطاولة ناعمة جدا و ارجلها رفيعة و كلها لون خشبي واحد، المقاعد في هذه الغرفة انقسمت الى نوعين: النوع الاول هو كراسي منجدة بلون البيج و ارجلها بني غامق، و النوع الثاني في غرفة الاكل هو المقعد الخشبي اللي لونه من لون الطاولة و فوقه قطعة اسفنج باللون الازرق الناعم.',
@@ -138,7 +244,7 @@ const content = [
         ]
     },
     {
-        'id': 3,
+        'id': 4,
         'title': 'غرفة طفل مودرن بالوان حديثة',
         'text': [ 'ذكرت في حلقاتي السابقة في برنامج تصاميم عن غرف الاطفال و الالوان اللي افضلها لغرف الاطفال و ذكرت انه مو لازم دايما نتقيد بالالوان التقليدية اللي اهي الازرق للاولاد و الوردي للبنات، في لوحة الافكار الموجودة جمعت من محلات مختلفة في الكويت و في دول الخليج اثاث لتكوين غرفة طفل بالالوان المحايدة مع اللون الاصفر اللي دخل حتى يعطي تطعيمة جميلة في الغرفة. السجادة في لوحة الافكار هذه هي القطعة الاساسية اللي من خلالها استخرجت الوان الغرفة. بعض القطع الوانها سادة و بعضها منقشة. الاستخدام الصحيح لخلط الاقمشة هي اننا نقدر نخلط اي نقشة مع اي نقشة ثانية و لكن كل اللي علينا نسويه اننا نلتزم بالالوان الموجودة بين نقشة و الثانية. مثل لوحة الافكار اللي امامكم، السلة فيها نقشة و السجاد فيها نقشة و حتى فرش السرير فيه نقشة مختلفة تماما عن النقشات الباقية، اللي خلى التصميم ينجح انهم فيهم من نفس الالوان.', ],
         'video': 'https://www.youtube.com/embed/tFBtATHlGig',
@@ -188,7 +294,7 @@ const content = [
         ]
     },
     {
-        'id': 4,
+        'id': 5,
         'title': 'حمام مودرن بالوان جريئة',
         'text': [ 'ما يمنع ان يكون التصميم الداخلي موجود حتى في الحمامات، كثير منا يجهل اهمية التصميم لهذه الزاوية في البيت و يعتبر تصميمها دايما تقليدي اما كل شي ابيض او لون موحد في المكان. في لوحة الافكار اللي عندنا اليوم حبيت اجمع لكم قطع مفروشات من محلات مختلفة لخلق حمام بستايل مودرن و عصري. الالوان المستخدمة هي الالوان المحايدة بالاضافة الى اللون الازرق و لون الورد الموجود في فازة الورد من بيسز باي فرح الذهبية. بتطعيم الحمام بلون الازرق اللي يتماشى مع الموضة في الستاير و الكرسي الجانبي اعطى نوع من الانتباه و الجرأة في التصميم. و أكيد اضافة الورد الاوركيد في الحمام يعطي الاناقة و النعومة في منطقة الحمام. كونوا جريئين في اختيار اثاثكم و لا تعتمدون فقط على الاطقم التقليدية لتكوين حمام جميل. الحمام الانيق اللي يمشي مع الموضة ما يتقيد بنوع اثاث معين لكل الحمام، بل نقدر نجمع اثاثه من اكثر من محل و يكون عندنا حمام ما حد عنده مثله.', ],
         'image': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Ffour%2FMain.png?alt=media&token=6be847c8-6f97-482f-9a2d-1508d752d87f',
@@ -221,7 +327,7 @@ const content = [
         ]
     },
     {
-        'id': 5,
+        'id': 6,
         'title': 'باستيلات بستايل حديث',
         'text': [ 'تصميم اي غرفة بالبيت ما يعتمد كيف نبدا..يعتمد على اي قطعة اخترتها من البداية و عجبتنني و شلون اقدر اصمم كل الغرفة على اساسها. في هذه اللوحة اللي نقدر نقول عنها لوحة افكار لتصميم غرفة جلوس بديت استوحي التصميم من اللوحة و استخرجت منها باقي قطع المفروشات حتى تكوّنت غرفة جلوس بستايل المودرن و العصري بالوان الباستيلات.مثل ما نشوف كل القطع سادة و ناعمة الا اللوحة و المخدة الموجودة على القنفة و فيها زخرفة تتماشى الوانها مع الوان اللوحة و تكملة الغرفة. لهذا دايما ننتبه في تصاميمنا على اتقان الالوان صح و لو كانت النقشات مختلفة و كثيرة.', ],
         'image': `${ImageOne}`,
@@ -266,7 +372,7 @@ const content = [
         ]
     },
     {
-        'id': 6,
+        'id': 7,
         'title': 'الجلد بستايل مودرن',
         'text': [ 'في الستايل الحديث لا نستغرب من الجلد فيه و لا نفكر انه هذه المادة فقط تتماشى مع ستايل الكلاسيكي، في الموضة الحديثة الجلد له مكانه و في هذه اللوحة قررت اجمع مفروشات من مختلف المحلات في الكويت و اسوي غرفة جلوس مميزة. الوانها جدا ناعمة و هادية بالازرق اللي موجود في السجادة و المخدات، و بلون العسلي الموجود في جلد القنفة الكبيرة في الغرفة و غير هذه الالوان كلها تصير الوان حيادية بالاكسسوارات و القطع الجمالية. فنبتدي باللوحات و المرايا لونهم ابيض، الطاولات الجانبية لون البيج و الاسود الاضاءة الجانبية رمادية، البفات او اللي نسميهم العثماني اسود و بيج. اللي عطى الغرفة ستايل المودرن بعد هو الكونكريت المتواجد في الزرع التجميلي للغرفة، زاد الغرفة اناقة و خلاها عصرية و تتماشى مع الموضة.', ],
         'image': `${ImageTwo}`,
@@ -311,7 +417,7 @@ const content = [
         ]
     },
     {
-        'id': 7,
+        'id': 8,
         'title': 'رمادي عصري و حديث',
         'text': [ 'في مراحل التصميم، مهم جداً دراسة المكان و مساحته و الألوان المناسبة للنشاط في المساحة اللي نريد نصممها. في غرفة الطعام هذه قررت اسوي هذه اللوحة اللي فيها كل ما في التصميم لغرفة الطعام. من سبع محلات للاثاث قدرت اخذ كل قطعة من مكان لانشاء غرفة الطعام بستايل المودرن و الالوان الرمادية و البيضاء مع تداخل مواد الخشب و الزجاج و العنصر الجميل النبات في كل مكان في البيت. من الموضة في غرف الطعام التشكيلة في اشكال المقاعد، مثل ما نشوف في لوحة المفروشات المختارة اني حبيت اختار نوعين للجلوس، كراسي عادية و مقعد لثلاث اشخاص. الطاولة الخشبية لغرفة الطعام تميزت بنعومتها و انها واضحة و غير ثقيلة. بالنسبة للسجاد فالزخرفة المختارة فيها راح تعطي جمال و اناقة لكل الغرفة لان كل شي غيرها من المفروشات ناعم و سادة. استخدام الكتان للستاير راح يزيد الغرفة بساطة مع تالق. و اكيد للاكسسوارات طعم خاص في اي غرفة في البيت. كسرنا الالوان الحيادية الرمادي و البيج بالازرق الخفيف في الاكسسوارات على طاولة الاكل و اللوحة المرسومة.', ],
         'image': `${ImageThree}`,
