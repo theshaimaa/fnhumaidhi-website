@@ -17,12 +17,12 @@ const content = [
         'elements': [
             {
                 'title': 'RESTORATION HARDWARE',
-                'link': '',
+                'link': 'https://www.instagram.com/restorationhardware_us/',
                 'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Feight%2FPhoto%204-9-17%2C%2010%2040%2019%20AM.jpg?alt=media&token=9a18e768-8e68-4e18-be3c-d6e92107443b',
             },
             {
                 'title': 'RESTORATION HARDWARE',
-                'link': '',
+                'link': 'https://www.instagram.com/restorationhardware_us/',
                 'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Feight%2FPhoto%204-9-17%2C%2010%2040%2025%20AM.jpg?alt=media&token=e35d08a8-9d01-4068-bccf-962d275941b1',
             },
             {
@@ -66,7 +66,7 @@ const content = [
                 'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Feight%2FPhoto%203-22-17%2C%2011%2032%2012%20AM.jpg?alt=media&token=7b4b4b0e-9d9e-40ea-9d9c-04bbec4a345e',
             },
             {
-                'title': 'PIECES BY N',
+                'title': 'PIECES BY FARAH',
                 'link': 'https://www.instagram.com/piecesbyfarah/',
                 'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Feight%2FPhoto%203-22-17%2C%2011%2032%2013%20AM.jpg?alt=media&token=21d36dfc-78ff-4a50-abed-0c5c2d9d5b89',
             },
