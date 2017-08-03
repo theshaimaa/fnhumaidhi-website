@@ -27,7 +27,7 @@ const content = [
             },
             {
                 'title': 'RESTORATION HARDWARE',
-                'link': '',
+                'link': 'https://www.instagram.com/restorationhardware_us/',
                 'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Feight%2FPhoto%204-9-17%2C%2010%2040%2015%20AM.jpg?alt=media&token=897d4a37-83d1-43df-af95-0e50294897ce',
             },
             {
@@ -42,7 +42,7 @@ const content = [
             },
             {
                 'title': 'RESTORATION HARDWARE',
-                'link': '',
+                'link': 'https://www.instagram.com/restorationhardware_us/',
                 'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/shopping%2Feight%2FPhoto%204-9-17%2C%2010%2040%2022%20AM.jpg?alt=media&token=02aa486b-1b5d-4601-b52f-c9e11f476e1d',
             },
             {
