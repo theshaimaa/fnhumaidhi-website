@@ -43,9 +43,15 @@ class BlogSnippet extends Component {
 
                 </div>
                 {this.props.image
-                    ? (<div style={mediaDivStyle}>
-                        <img src={this.props.image} role="presentation" style={imageStyle}/>
-                    </div>)
+                    ? Array.isArray(this.props.image)
+                        ? this.props.image.map(function(item) {
+                            return (<div style={mediaDivStyle}>
+                                <img src={item} role="presentation" style={imageStyle}/>
+                            </div>)
+                        })
+                        : (<div style={mediaDivStyle}>
+                            <img src={this.props.image} role="presentation" style={imageStyle}/>
+                        </div>)
                     : null
                 }
 
