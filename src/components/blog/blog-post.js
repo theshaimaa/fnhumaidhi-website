@@ -62,7 +62,7 @@ class BlogPost extends Component {
             )
         }
 
-        var post = [];
+        let post = [];
         this.state.blog.post.forEach(function(key, value) {
             post.push(key);
         });
