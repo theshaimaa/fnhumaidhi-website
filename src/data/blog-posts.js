@@ -1,5 +1,13 @@
 const BlogPosts = [
     {
+        'title': 'مقاسات الاريكة الصحيحة',
+        'id': '201708281428',
+        'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2F201708281428%2FTHUMBNAIL_AUGUST_28.png?alt=media&token=316307c6-4f96-4d3f-88cf-7380df0f3db4',
+    },{
+        'title': 'فسيولوجيا الألوان  الحارة',
+        'id': '201708231548',
+        'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2F201708231548%2FTHUMBNAIL_AUGUST_23.jpg?alt=media&token=ed91f721-25e1-4bf7-ae3f-d4295d6ad1ba',
+    },{
         'title': 'خلط الالوان في الديكور',
         'id': '201708211647',
         'imageURL': 'https://firebasestorage.googleapis.com/v0/b/era-farah-alhumaidhi.appspot.com/o/blog%2F201708211647%2FTHUMBNAIL_AUGUST_21.jpg?alt=media&token=aedc69a2-14ed-4632-bf6a-fe05231fcc34',
