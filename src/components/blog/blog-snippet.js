@@ -30,13 +30,15 @@ class BlogSnippet extends Component {
             backgroundSize: 'contain',
             backgroundPosition: 'center center'
         };
-
+        let _this = this;
         return (
             <div style={containerStyle}>
                 <div style={divStyle}>
                     { Array.isArray(this.props.text)
                         ? this.props.text.map(function(item) {
-                            return <p style={textStyle}>{item}</p>
+                            return Array.isArray(item)
+                            ? <p style={textStyle}>{_this.renderText(item)}</p>
+                            : <p style={textStyle}>{item}</p>
                         })
                         : <p style={textStyle}>{this.props.text}</p>
                     }
@@ -65,6 +67,14 @@ class BlogSnippet extends Component {
                 }
             </div>
         );
+    }
+    renderText(text) {
+        return (text.map(function(partial) {
+            if(typeof partial.link === 'undefined') {
+                return (partial.text);
+            }
+            return (<a href={partial.link}>{partial.link}</a>);
+        }));
     }
 }
 
